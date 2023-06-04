@@ -5,6 +5,6 @@ while 1:
         password  = ""
         for x in range(0,16):
             password_chars = random.choice(chars)
-            password      = password + password_chars
+            password       = password + password_chars
         print(password)
         input()
